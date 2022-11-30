@@ -1,0 +1,11 @@
+import this Выводит Python dzen в терминал. Там говориться о философии написания кода на Python.
+
+import antigravity Отправляет на сайт с мини-комиксом где мужик летает то ли от того что вписал import antigraviti
+                   то ли от того что наелся таблеток из аптечки или же от того что python настолько лёгок в освоении
+                   что он за одну ночь его выучил. Но он склоняеться больше к первому варианту.
+
+import __hello__ Выводит в терминал Hello World
+
+from __future__ import braces Выводит забавную ошибку:
+                              File "<stdin>", line 1
+                              SyntaxError: not a chance
