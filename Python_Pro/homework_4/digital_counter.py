@@ -8,8 +8,8 @@ def print_message_reaching_limit(func):
 
 class DigitalCounter:
     def __init__(self, start=0, end=100, current=None):
-        self.start = start if type(start) is int else 0
-        self.end = end if type(end) is int else 100
+        self.start = start
+        self.end = end
         self.current = start if current is None else current
 
     @print_message_reaching_limit
