@@ -1,6 +1,6 @@
 import unittest
 
-from Python_Pro.homework_4.task_1 import DigitalCounter
+from Python_Pro.homework_4.digital_counter import DigitalCounter
 
 
 class TestDigitalCounter(unittest.TestCase):
