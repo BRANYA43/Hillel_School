@@ -2,8 +2,7 @@ def print_message_reaching_limit(func):
     def wrapper(self, *args, **kwargs):
         if self.current >= self.end:
             print('Current is reaching the limit')
-        else:
-            func(self, *args, **kwargs)
+        func(self, *args, **kwargs)
     return wrapper
 
 
