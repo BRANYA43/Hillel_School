@@ -5,13 +5,13 @@ VALUE = 1
 LAST_FREQUENTLY_WORD = -1
 
 
-def get_broken_line(text: str) -> list[str]:
+def get_broken_line_on_words(text: str) -> list[str]:
     words = text.translate(dict.fromkeys(map(ord, string.punctuation))).lower().split()
     return words
 
 
 def get_frequently_word(text: str) -> str:
-    words = get_broken_line(text)
+    words = get_broken_line_on_words(text)
     word_counts = {}
 
     for word in words:
